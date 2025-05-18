@@ -43,7 +43,7 @@ The solution works as follows:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/ses-forwarder.git
+   git clone https://github.com/JGillam/SES-forwarder.git
    cd ses-forwarder
    ```
 
