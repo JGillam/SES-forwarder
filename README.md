@@ -44,7 +44,7 @@ The solution works as follows:
 1. Clone this repository:
    ```
    git clone https://github.com/JGillam/SES-forwarder.git
-   cd ses-forwarder
+   cd SES-forwarder/cdk
    ```
 
 2. Install dependencies:
@@ -52,15 +52,15 @@ The solution works as follows:
    npm install
    ```
 
-3. Build the project:
-   ```
-   npm run build
-   ```
-
-4. Deploy the stack:
+3. Deploy the stack:
    ```
    npx cdk deploy
    ```
+*Note: You may want to add a `--profile <your AWS profile>` argument to control where the solution gets deployed. See 
+the [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting-started.html) guide for help on 
+getting started with the AWS CDK.*   
+
+
 
 ## Configuration
 
